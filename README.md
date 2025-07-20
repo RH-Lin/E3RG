@@ -5,9 +5,9 @@ Official Implementation for "E3RG: Building Explicit Emotion-driven Empathetic R
 
 Related Website: 
 
-[https://sites.google.com/view/svc-mm25](https://avamerg.github.io/MM25-challenge/)
+[https://avamerg.github.io/MM25-challenge](https://avamerg.github.io/MM25-challenge)
 
-[https://github.com/Redaimao/MMDD2025](https://github.com/AvaMERG/AvaMERG-Pipeline)
+[https://github.com/AvaMERG/AvaMERG-Pipeline](https://github.com/AvaMERG/AvaMERG-Pipeline)
 
 ## Reproduce Steps
 
