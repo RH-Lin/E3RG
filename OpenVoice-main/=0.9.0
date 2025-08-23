@@ -1,0 +1,116 @@
+Looking in indexes: http://mirrors.aliyun.com/pypi/simple/
+Requirement already satisfied: huggingface-hub==0.30.0 in /usr/local/lib/python3.10/dist-packages (0.30.0)
+Requirement already satisfied: tokenizers==0.21.0 in /usr/local/lib/python3.10/dist-packages (0.21.0)
+Requirement already satisfied: faster-whisper in /usr/local/lib/python3.10/dist-packages (1.1.1)
+Requirement already satisfied: myshell-openvoice in /presearch_lin/EmpatheticGeneration/OpenVoice-main (0.0.0)
+Requirement already satisfied: filelock in /usr/local/lib/python3.10/dist-packages (from huggingface-hub==0.30.0) (3.14.0)
+Requirement already satisfied: fsspec>=2023.5.0 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub==0.30.0) (2024.2.0)
+Requirement already satisfied: packaging>=20.9 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub==0.30.0) (23.2)
+Requirement already satisfied: pyyaml>=5.1 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub==0.30.0) (6.0.1)
+Requirement already satisfied: requests in /usr/local/lib/python3.10/dist-packages (from huggingface-hub==0.30.0) (2.32.3)
+Requirement already satisfied: tqdm>=4.42.1 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub==0.30.0) (4.65.0)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub==0.30.0) (4.14.0)
+Requirement already satisfied: ctranslate2<5,>=4.0 in /usr/local/lib/python3.10/dist-packages (from faster-whisper) (4.6.0)
+Requirement already satisfied: onnxruntime<2,>=1.14 in /usr/local/lib/python3.10/dist-packages (from faster-whisper) (1.22.0)
+Requirement already satisfied: av>=11 in /usr/local/lib/python3.10/dist-packages (from faster-whisper) (14.4.0)
+Requirement already satisfied: librosa==0.9.1 in /usr/local/lib/python3.10/dist-packages (from myshell-openvoice) (0.9.1)
+Collecting faster-whisper
+  Using cached http://mirrors.aliyun.com/pypi/packages/ff/11/401db7f4bfdcec3c4bd685297c2fb11a3caa0a0fa3288bd209f973b877bb/faster_whisper-0.9.0-py3-none-any.whl (1.5 MB)
+Requirement already satisfied: pydub==0.25.1 in /usr/local/lib/python3.10/dist-packages (from myshell-openvoice) (0.25.1)
+Requirement already satisfied: wavmark==0.0.3 in /usr/local/lib/python3.10/dist-packages (from myshell-openvoice) (0.0.3)
+Requirement already satisfied: numpy==1.22.0 in /usr/local/lib/python3.10/dist-packages (from myshell-openvoice) (1.22.0)
+Requirement already satisfied: eng_to_ipa==0.0.2 in /usr/local/lib/python3.10/dist-packages (from myshell-openvoice) (0.0.2)
+Requirement already satisfied: inflect==7.0.0 in /usr/local/lib/python3.10/dist-packages (from myshell-openvoice) (7.0.0)
+Requirement already satisfied: unidecode==1.3.7 in /usr/local/lib/python3.10/dist-packages (from myshell-openvoice) (1.3.7)
+Requirement already satisfied: whisper-timestamped==1.14.2 in /usr/local/lib/python3.10/dist-packages (from myshell-openvoice) (1.14.2)
+Requirement already satisfied: pypinyin==0.50.0 in /usr/local/lib/python3.10/dist-packages (from myshell-openvoice) (0.50.0)
+Requirement already satisfied: cn2an==0.5.22 in /usr/local/lib/python3.10/dist-packages (from myshell-openvoice) (0.5.22)
+Requirement already satisfied: jieba==0.42.1 in /usr/local/lib/python3.10/dist-packages (from myshell-openvoice) (0.42.1)
+Requirement already satisfied: gradio==3.48.0 in /usr/local/lib/python3.10/dist-packages (from myshell-openvoice) (3.48.0)
+Requirement already satisfied: langid==1.1.6 in /usr/local/lib/python3.10/dist-packages (from myshell-openvoice) (1.1.6)
+Collecting av==10.* (from faster-whisper)
+  Using cached http://mirrors.aliyun.com/pypi/packages/85/d7/0c0b99b302f8973481fe08b9ec5043bcf0708e56f21512ae0fb697fa02d8/av-10.0.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (31.0 MB)
+Collecting ctranslate2<4,>=3.17 (from faster-whisper)
+  Using cached http://mirrors.aliyun.com/pypi/packages/9f/73/a46296b333b7facf60a9ebeb3d72840c52db62e34db037520cb5e452ed10/ctranslate2-3.24.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (36.8 MB)
+INFO: pip is looking at multiple versions of faster-whisper to determine which version is compatible with other requirements. This could take a while.
+Collecting faster-whisper
+  Using cached http://mirrors.aliyun.com/pypi/packages/ad/69/28359d152f9e2ec1ff4dff3da47011b6346e9a472f89b409bb13017a7d1f/faster_whisper-1.1.1-py3-none-any.whl (1.1 MB)
+  Downloading http://mirrors.aliyun.com/pypi/packages/7b/03/ab118cb743dcf671da01ad0cfd7564465dda115db32976fdc95e21ce8feb/faster_whisper-1.1.0-py3-none-any.whl (1.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 3.3 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/7f/00/4742b1cd3afd23d0ff9b7e72ec40b2c398988332a5578115728fd83415d1/faster_whisper-1.0.3-py3-none-any.whl (2.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 3.1 MB/s eta 0:00:00
+Collecting av<13,>=11.0 (from faster-whisper)
+  Downloading http://mirrors.aliyun.com/pypi/packages/0a/5f/5ab859d8770ac1203d492e418cf949cfcac5c25994e9754c536fb37578fc/av-12.3.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (33.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 33.5/33.5 MB 13.0 MB/s eta 0:00:00
+Collecting faster-whisper
+  Downloading http://mirrors.aliyun.com/pypi/packages/4e/77/3f7474863c99732edadcd5a7fc34ba5779b0bd71610ede65182fd2610323/faster_whisper-1.0.2-py3-none-any.whl (1.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 2.4 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/2b/3c/afdc84846ea13933876e8ca32c58d64cd4361fddfc6ede34c0ca3f0105ce/faster_whisper-1.0.1-py3-none-any.whl (1.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 2.9 MB/s eta 0:00:00
+Collecting av==11.* (from faster-whisper)
+  Downloading http://mirrors.aliyun.com/pypi/packages/0a/32/56aaa677f0ec369eb68623a2ade90358c1a51b6e3cd6087111bd1e096b82/av-11.0.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (32.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 32.9/32.9 MB 22.4 MB/s eta 0:00:00
+Collecting faster-whisper
+  Downloading http://mirrors.aliyun.com/pypi/packages/07/a8/a5c6f24304010a67a54c5a90c99fbec07c31362ec89066b1a7d8ab310a00/faster_whisper-1.0.0-py3-none-any.whl (1.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 2.2 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/8e/bd/81f2ab3adc12b4e63c8fe8a50a4abfd6f32bf58a0b5abbfb7c584946cf82/faster_whisper-0.10.1-py3-none-any.whl (1.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 2.3 MB/s eta 0:00:00
+INFO: pip is still looking at multiple versions of faster-whisper to determine which version is compatible with other requirements. This could take a while.
+  Downloading http://mirrors.aliyun.com/pypi/packages/25/2e/0ae6cebc6ec9ba348d231c8b12d3211d443b2bc0dbf0ecc4cb366ed654fa/faster_whisper-0.10.0-py3-none-any.whl (1.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 3.2 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/b4/9a/d9234997a308647ba18d294b2a9c906a5447fc99f5b35eb223490ddf0a65/faster_whisper-0.8.0-py3-none-any.whl (1.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 2.1 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/5d/ef/a6afc7bcfec7bf7e647e315813c898ce031a3bb3a5baaac3a3bf7d9ecf7b/faster_whisper-0.7.1-py3-none-any.whl (1.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 2.4 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/53/03/f978c6e99553bea624e481a0399bda91dbba873f224d724da9c18f531e83/faster_whisper-0.7.0-py3-none-any.whl (1.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 2.1 MB/s eta 0:00:00
+INFO: This is taking longer than usual. You might need to provide the dependency resolver with stricter constraints to reduce runtime. See https://pip.pypa.io/warnings/backtracking for guidance. If you want to abort this run, press Ctrl + C.
+  Downloading http://mirrors.aliyun.com/pypi/packages/be/f2/e9799f7feae7f9d5dbbce178cf3fe6f440a5542e14589309299b5dc4926c/faster_whisper-0.6.0-py3-none-any.whl (1.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 2.5 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/4f/a1/e90c2b6e7f4296e3308051a6b79c98a9a92ad2e98825a350f8f9a8da1ca1/faster_whisper-0.5.1-py3-none-any.whl (1.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 3.9 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/71/84/18fcb8694a53bc47a557be116cd9c7b8b9d7b60b2445344bdc73a800eb5b/faster_whisper-0.5.0-py3-none-any.whl (1.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 2.2 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/7e/98/39a875cc2666d193da9702b4d8e645d5f168cd63b9179136c76aaf8698ba/faster_whisper-0.4.1-py3-none-any.whl (1.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 2.1 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/21/73/03f50ab85d3e90a715d1789356abcb987fa25757cdae7b6d884f74df0553/faster_whisper-0.4.0-py3-none-any.whl (1.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 1.9 MB/s eta 0:00:00
+  Downloading http://mirrors.aliyun.com/pypi/packages/34/ca/e9d4de171b0ff00be8c3d0ec6274d2b8d0f03eb943cd8228b4819156da39/faster_whisper-0.3.0-py3-none-any.whl (17 kB)
+  Downloading http://mirrors.aliyun.com/pypi/packages/2d/e4/5118b4cff04b993c3ce12f5f3cd82e7135ddd9c3fd8fe77f6b1d287c18ce/faster_whisper-0.2.0-py3-none-any.whl (16 kB)
+
+The conflict is caused by:
+    The user requested tokenizers==0.21.0
+    faster-whisper 1.0.1 depends on tokenizers<0.16 and >=0.13
+    The user requested tokenizers==0.21.0
+    faster-whisper 1.0.0 depends on tokenizers<0.16 and >=0.13
+    The user requested tokenizers==0.21.0
+    faster-whisper 0.10.1 depends on tokenizers<0.16 and >=0.13
+    The user requested tokenizers==0.21.0
+    faster-whisper 0.10.0 depends on tokenizers<0.16 and >=0.13
+    The user requested tokenizers==0.21.0
+    faster-whisper 0.9.0 depends on tokenizers<0.15 and >=0.13
+    The user requested tokenizers==0.21.0
+    faster-whisper 0.8.0 depends on tokenizers==0.13.*
+    The user requested tokenizers==0.21.0
+    faster-whisper 0.7.1 depends on tokenizers==0.13.*
+    The user requested tokenizers==0.21.0
+    faster-whisper 0.7.0 depends on tokenizers==0.13.*
+    The user requested tokenizers==0.21.0
+    faster-whisper 0.6.0 depends on tokenizers==0.13.*
+    The user requested tokenizers==0.21.0
+    faster-whisper 0.5.1 depends on tokenizers==0.13.*
+    The user requested tokenizers==0.21.0
+    faster-whisper 0.5.0 depends on tokenizers==0.13.*
+    The user requested tokenizers==0.21.0
+    faster-whisper 0.4.1 depends on tokenizers==0.13.*
+    The user requested tokenizers==0.21.0
+    faster-whisper 0.4.0 depends on tokenizers==0.13.*
+    The user requested tokenizers==0.21.0
+    faster-whisper 0.3.0 depends on tokenizers==0.13.*
+    The user requested tokenizers==0.21.0
+    faster-whisper 0.2.0 depends on tokenizers==0.13.*
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip attempt to solve the dependency conflict
+

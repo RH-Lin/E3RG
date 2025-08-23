@@ -1,0 +1,15 @@
+accelerate==0.28.0
+av==11.0.0
+diffusers==0.29.0
+einops==0.7.0
+pydantic==2.10.6
+gradio==4.44.1
+imageio==2.31.1
+imageio-ffmpeg==0.5.1
+librosa==0.10.2.post1
+numpy==1.26.4
+omegaconf==2.3.0
+opencv-python==4.8.1.78
+sk-video==1.1.10
+tqdm==4.65.2
+transformers==4.43.2
