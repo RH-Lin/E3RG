@@ -1,6 +1,8 @@
 # E3RG
 Official Implementation for "E3RG: Building Explicit Emotion-driven Empathetic Response Generation System with Multimodal Large Language Model"
 
+[![arXiv](https://img.shields.io/badge/arXiv-2508.12854-red)](https://arxiv.org/abs/2508.12854)
+
 ### 🥉Top-1 Solution for the $2^{nd}$ task in The ACM Multimedia 2025 Grand Challenge of Avatar-based Multimodal Empathetic Conversation
 
 Related Website: 
