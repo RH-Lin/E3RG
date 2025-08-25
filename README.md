@@ -33,7 +33,7 @@ Environment for different third-parties codebases pls refer to their official we
 
 Our codebase builds upon above codebases. We extend our gratitude to their open-source models and excellent works, which have enabled us to further our exploration. 
 
-### 🚀 2. Demo Infering:
+### 🚀 2. Demo Inference:
 
 Output both tts speech and talking-head videos:
 
