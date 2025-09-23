@@ -1,4 +1,4 @@
-# [MM 2025 Grand Challenge] Official Implementation for "E3RG: Building Explicit Emotion-driven Empathetic Response Generation System with Multimodal Large Language Model"
+# [MM 2025 Grand Challenge] E3RG: Building Explicit Emotion-driven Empathetic Response Generation System with Multimodal Large Language Model
 
 [![arXiv](https://img.shields.io/badge/arXiv-2508.12854-red)](https://arxiv.org/abs/2508.12854)
 
