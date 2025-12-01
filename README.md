@@ -26,7 +26,7 @@ Environment for different third-parties codebases pls refer to their official we
 
 [DICE-Talk](https://github.com/toto222/DICE-Talk) for talking-head generation
 
-[OpenVoice](https://github.com/myshell-ai/OpenVoice/blob/main/docs/USAGE.md#openvoice-v2) for text-to-speech generation
+[OpenVoice](https://github.com/myshell-ai/OpenVoice/blob/main/docs/USAGE.md#openvoice-v2) v2 for text-to-speech generation
 
 [MeloTTS](https://github.com/myshell-ai/MeloTTS) provided as Base Speakers for tts
 
